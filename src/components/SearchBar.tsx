@@ -44,7 +44,7 @@ const SearchComponent = () => {
     }
   };
 
-  const handleKeyDown = (e) => {
+  const handleKeyDown = (e: Event) => {
     if (e.key === "ArrowDown") {
       // Navigate down
       setSelectedIndex((prevIndex) =>
