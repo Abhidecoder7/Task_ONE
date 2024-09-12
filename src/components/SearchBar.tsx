@@ -29,7 +29,7 @@ const SearchComponent = () => {
     "Jewellery",
   ];
 
-  const handleSearch = (e) => {
+  const handleSearch = (e : Event) => {
     const value = e.target.value.toLowerCase();
     setQuery(value);
     setSelectedIndex(-1); 
